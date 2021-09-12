@@ -8,6 +8,7 @@ import * as view348c13d6 from '../../../node_modules/.pnpm/@keystone-next+fields
 import * as viewc98253b7 from '../../../node_modules/.pnpm/@keystone-next+fields@4.1.1_8bbc6c0fbc73100d167a1b91fe10d4cc/node_modules/@keystone-next/fields/types/text/views';
 import * as view5d9e9144 from '../../../node_modules/.pnpm/@keystone-next+fields@4.1.1_8bbc6c0fbc73100d167a1b91fe10d4cc/node_modules/@keystone-next/fields/types/password/views';
 import * as viewe933231e from '../../../node_modules/.pnpm/@keystone-next+fields@4.1.1_8bbc6c0fbc73100d167a1b91fe10d4cc/node_modules/@keystone-next/fields/types/timestamp/views';
+import * as view595fb98d from '../../../node_modules/.pnpm/@keystone-next+fields@4.1.1_8bbc6c0fbc73100d167a1b91fe10d4cc/node_modules/@keystone-next/fields/types/relationship/views';
 import * as viewaf67ac1f from '../../../node_modules/.pnpm/@keystone-next+fields@4.1.1_8bbc6c0fbc73100d167a1b91fe10d4cc/node_modules/@keystone-next/fields/types/select/views';
 import * as viewfdd5c3f6 from '../../../node_modules/.pnpm/@keystone-next+fields@4.1.1_8bbc6c0fbc73100d167a1b91fe10d4cc/node_modules/@keystone-next/fields/types/integer/views';
 import * as viewd2a3b617 from '../../../node_modules/.pnpm/@keystone-next+cloudinary@2.0.9_8bbc6c0fbc73100d167a1b91fe10d4cc/node_modules/@keystone-next/cloudinary/views';
@@ -19,6 +20,7 @@ const fieldViews = {
   viewc98253b7,
   view5d9e9144,
   viewe933231e,
+  view595fb98d,
   viewaf67ac1f,
   viewfdd5c3f6,
   viewd2a3b617,
@@ -196,7 +198,7 @@ export default function App({ Component, pageProps }) {
     <Core>
       <KeystoneProvider
         adminConfig={adminConfig}
-        adminMetaHash="19kcmjy"
+        adminMetaHash="zwk29k"
         fieldViews={fieldViews}
         lazyMetadataQuery={lazyMetadataQuery}
       >

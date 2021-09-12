@@ -19,4 +19,10 @@ export const ProductImage = list({
     altText: text(),
     product: relationship({ ref: 'Product.photo' }),
   },
+  ui: {
+    listView: {
+      initialColumns: ['product', 'image', 'altText'],
+      initialSort: { field: 'altText', direction: 'ASC' },
+    },
+  },
 });
